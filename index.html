@@ -1,21 +1,186 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ink & Wall Co.</title>
-<link rel="icon" href="favicon.png" type="image/png">
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Ink &amp; Wall Co. — Calm, Professional Wall Printing</title>
+<meta content="Ink &amp; Wall Co. transforms blank walls into brand-right statements. Clear pricing, tidy installs, and a Love-It Guarantee." name="description"/>
+<meta content="#14532d" name="theme-color"/>
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-<header><div class="wrap"><img src="logo.png" alt="Logo" class="brand__logo"> Ink & Wall Co.</div></header>
-<main>
-<section id="gallery" class="section">
-<div class="wrap"><h2>Our Work</h2>
-<!-- LightWidget WIDGET -->
-<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-<iframe src="https://cdn.lightwidget.com/widgets/cd029de3547f597e868a49c7b82f1a57.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-</div></section>
+<!-- Skip to main -->
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- Top bar -->
+<header class="topbar">
+<div class="wrap topbar__inner">
+<div class="brand">
+<img alt="Ink &amp; Wall Co. logo" class="brand__logo" src="images/logo.png"/>
+<span class="brand__name">Ink &amp; Wall Co.</span>
+</div>
+<div class="quick">
+<a class="btn btn--call" href="tel:+16196354119">📞 Call Now</a>
+<span class="hours">Mon–Fri 9am–6pm</span>
+<a class="btn btn--primary btn--sm" href="#booking">Book Now</a>
+</div>
+</div>
+</header>
+<!-- Nav -->
+<nav aria-label="Primary" class="nav" role="navigation">
+<div class="wrap nav__inner">
+<a class="nav__link" href="#about">About</a>
+<a class="nav__link" href="#pricing">Pricing</a>
+<a class="nav__link" href="#gallery">Our Work</a>
+<a class="nav__link" href="#process">Process</a>
+<a class="nav__link" href="#booking">Book</a>
+</div>
+</nav>
+<!-- Banner -->
+<div aria-live="polite" class="banner" role="status">
+<div class="wrap">
+<strong>Limited monthly slots:</strong> Free concept sketch on bookings confirmed this month.
+      <span class="slots">Only <b>3</b> left.</span>
+</div>
+</div>
+<main id="main">
+<!-- HERO -->
+<section class="hero">
+<div class="wrap hero__inner">
+<div class="hero__copy">
+<h1>Calm, professional wall printing<span class="accent">.</span></h1>
+<p class="lede">From blank walls to brand-right statements. Tidy installs. Clear pricing. <strong>Love-It Guarantee.</strong></p>
+<div class="cta-row">
+<a class="btn btn--primary" href="#booking">Request Booking</a>
+<a class="btn btn--secondary" href="#pricing">See Pricing</a>
+</div>
+<p class="meta">Replies within 24h • Eco-friendly inks • Low-odor</p>
+</div>
+<div aria-label="Highlights" class="hero__badges card">
+<ul class="ticks">
+<li>High-resolution print quality</li>
+<li>Clean, fast setup</li>
+<li>Friendly, reliable crew</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section class="section" id="about">
+<div class="wrap">
+<div class="cards-2">
+<div class="card">
+<h2>About Ink &amp; Wall Co.</h2>
+<p>Hi, I’m <strong>Max Osadchenko</strong>. I started Ink &amp; Wall Co. after seeing how a single wall can change a room’s energy. With modern wall-printing tech and a tidy process, we turn your idea into a polished centerpiece—at home, the office, or your next venue.</p>
+</div>
+<div class="card about__grid">
+<div class="about__pill">Eco Inks</div>
+<div class="about__pill">Low Odor</div>
+<div class="about__pill">Precise Edges</div>
+<div class="about__pill">On-Time</div>
+<div class="about__pill">Love-It Guarantee</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRICING -->
+<section class="section" id="pricing">
+<div class="wrap">
+<h2>Transparent Pricing</h2>
+<div class="pricing">
+<article class="plan card">
+<h3>Starter</h3>
+<p class="price">From $250</p>
+<ul class="list">
+<li>Up to 6 ft × 6 ft</li>
+<li>Full-color, eco-friendly</li>
+<li>Design consult included</li>
+</ul>
+<a class="btn btn--primary" href="#booking" onclick="document.getElementById('selected-plan').value='Starter';">Choose Starter</a>
+</article>
+<article class="plan card plan--featured">
+<h3>Standard <span class="badge">Best Value</span></h3>
+<p class="price">From $450</p>
+<ul class="list">
+<li>Up to 10 ft × 8 ft</li>
+<li>Custom design or your art</li>
+<li>On-site setup &amp; cleanup</li>
+</ul>
+<a class="btn btn--primary" href="#booking" onclick="document.getElementById('selected-plan').value='Standard';">Choose Standard</a>
+</article>
+<article class="plan card">
+<h3>Premium</h3>
+<p class="price">From $750</p>
+<ul class="list">
+<li>Up to 15 ft × 10 ft</li>
+<li>Priority scheduling</li>
+<li>Multiple designs/walls</li>
+</ul>
+<a class="btn btn--primary" href="#booking" onclick="document.getElementById('selected-plan').value='Premium';">Choose Premium</a>
+</article>
+</div>
+<div class="card included">
+<h3>Included with every project</h3>
+<ul class="list list--inline">
+<li>Quick call &amp; goals</li>
+<li>Concept sketch (48–72h)</li>
+<li>Professional install</li>
+<li>Care instructions</li>
+</ul>
+<p class="meta"><strong>Love-It Guarantee:</strong> If the on-wall test isn’t right, we revise at our cost. Limited monthly slots ensure top quality on every project.</p>
+</div>
+</div>
+</section>
+<!-- GALLERY (INSTAGRAM) -->
+<section class="section" id="gallery"><div class="wrap"><h2>Our Work</h2><p class="meta center">A few examples of walls we’ve transformed.</p><div class="gallery-grid"><img alt="Project 1" src="images/project1.jpg"/><img alt="Project 2" src="images/project2.jpg"/><img alt="Project 3" src="images/project3.jpg"/><img alt="Project 4" src="images/project4.jpg"/></div><p class="center"><a class="btn btn--secondary" href="https://www.instagram.com/inkandwallco" target="_blank">View More on Instagram</a></p></div></section>
+<!-- PROCESS -->
+<section class="section" id="process">
+<div class="wrap">
+<h2>How it works</h2>
+<ol class="steps card">
+<li><strong>Book</strong> — Lock your slot and goals in 5 minutes.</li>
+<li><strong>Approve</strong> — Get a concept in 48–72h; confirm schedule.</li>
+<li><strong>Enjoy</strong> — Tidy install, zero hassle, stunning results.</li>
+</ol>
+</div>
+</section>
+<!-- BOOKING -->
+<section class="section" id="booking">
+<div class="wrap">
+<div class="card">
+<h2>Request a Booking</h2>
+<p class="meta">Tell us your wall size, access, and vibe. We’ll reply within 24 hours. We take a limited number of projects each month to keep quality high—secure your slot below.</p>
+<form action="thankyou.html" data-netlify="true" method="POST" name="booking" netlify-honeypot="bot-field">
+<input name="form-name" type="hidden" value="booking"/>
+<input id="selected-plan" name="plan" type="hidden" value=""/>
+<p class="hidden"><label>Don’t fill this out: <input name="bot-field"/></label></p>
+<div class="grid-2">
+<input name="name" placeholder="Your Name" required="" type="text"/>
+<input name="email" placeholder="Your Email" required="" type="email"/>
+<input name="phone" placeholder="Phone (optional)" type="text"/>
+<input name="location" placeholder="Project Location (city/state)" type="text"/>
+</div>
+<textarea name="details" placeholder="Wall size, height/access, design direction…" required="" rows="5"></textarea>
+<div class="cta-row">
+<button class="btn btn--primary" type="submit">Send Booking Request</button>
+<a class="btn btn--secondary" href="tel:+16196354119">Call Us</a>
+</div>
+</form>
+<p class="contactline">📧 <a href="mailto:inkandwallco@gmail.com">inkandwallco@gmail.com</a>  |  📱 619-635-4119  |  <a href="https://www.instagram.com/inkandwallco" target="_blank">@inkandwallco</a></p>
+</div>
+</div>
+</section>
 </main>
-<footer><div class="wrap">&copy; <span id="y"></span> Ink & Wall Co.</div></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-</body></html>
+<!-- Sticky CTA (mobile) -->
+<div class="sticky-cta">
+<a class="btn btn--primary" href="#booking">Book Now</a>
+</div>
+<footer class="footer">
+<div class="wrap">© <span id="y"></span> Ink &amp; Wall Co. All rights reserved.</div>
+</footer>
+<script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

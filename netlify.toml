@@ -1,4 +1,16 @@
+# Netlify configuration
 [build]
   publish = "."
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
+
 [functions]
-  node_bundler="esbuild"
+  node_bundler = "esbuild"
+
+# Trigger auto-reply on form submission
+[[events]]
+  package = "@netlify/functions"
+  event = "submission-created"
+  # Map to our function
+  # In background:handled by function file name
